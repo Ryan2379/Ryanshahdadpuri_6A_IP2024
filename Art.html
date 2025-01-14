@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: aqua;
+            color: #333;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: darkorange;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+        #main-content {
+            margin: 30px auto;
+            width: 80%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        img {
+            width: 260px;
+            height: 160px;
+            margin: 0 auto;
+            display: block;
+        }
+        /* Flip card styles */
+        .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            perspective: 1000px;
+            margin: 20px auto;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .flip-card-front {
+            background-color: white;
+        }
+        .flip-card-back {
+            background-color: lightyellow;
+            transform: rotateY(180deg);
+            font-size: 14px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to the World of Pop Art</h1>
+    </div>
+
+    <div id="main-content">
+        <h2>What is Pop Art?</h2>
+        <p>Pop Art is an art movement that emerged in the 1950s in Britain and later took off in the United States in the 1960s. It is characterized by its use of popular culture imagery, including advertisements, comic strips, and mundane objects.</p>
+        <h2>Famous Artists</h2>
+        <p>Some of the most prominent figures of the Pop Art movement include:</p>
+        <ul>
+            <li><strong>Andy Warhol</strong> - Famous for his works with Campbell's soup cans and portraits of celebrities like Marilyn Monroe.</li>
+            <li><strong>Roy Lichtenstein</strong> - Known for his large-scale comic-strip-inspired artworks.</li>
+            <li><strong>Keith Haring</strong> - Known for his bright, energetic, and graffiti-inspired artwork.</li>
+        </ul>
+        <h2>Impact of Pop Art</h2>
+        <p>Pop Art had a profound influence on the art world and beyond, changing how people viewed art and its relationship with mass culture.</p>
+    </div>
+
+    <!-- Flip card -->
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="C:\Users\crick\OneDrive\Desktop\images (1).jpg" alt="POP ART" width="260" height="160">
+            </div>
+            <div class="flip-card-back">
+                <p><strong>Look Mickey</strong></p>
+                <p>1961 painting by Roy Lichtenstein, featuring Mickey Mouse and Donald Duck in a comic strip style. A pivotal Pop Art piece that uses bold lines, bright colors, and Ben-Day dots.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

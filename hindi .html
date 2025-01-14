@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>हिंदी में छोटा सा लेख</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        p {
+            text-align: left;
+            background: #eaf2f8;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .flip-card {
+            background-color: transparent;
+            width: 600px; /* Increased width */
+            height: 800px; /* Increased height */
+            perspective: 1000px;
+            margin: 20px auto;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+        }
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+        .flip-card-front {
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flip-card-back {
+            background: #fff;
+            transform: rotateY(180deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>✨ छोटा सा हिंदुस्तान ✨</h1>
+    <p>भारत विविधता में एकता का अद्भुत उदाहरण है। यहाँ कई धर्म, भाषाएँ और संस्कृतियाँ मिलकर रहती हैं।</p>
+    <p>हिमालय, राजस्थान के रेगिस्तान, केरल के बैकवॉटर्स और ताजमहल जैसे पर्यटन स्थल पूरी दुनिया में मशहूर हैं।</p>
+    <p>भारतीय व्यंजन, जैसे पराठे, बिरयानी, डोसा, और मिठाइयाँ हर किसी का दिल जीत लेते हैं।</p>
+    <p>योग और आयुर्वेद भारत की अनमोल देन हैं, जो विश्वभर में स्वास्थ्य का प्रतीक माने जाते हैं।</p>
+    <p>चंद्रयान और मंगलयान जैसी उपलब्धियाँ भारत की वैज्ञानिक ताकत को दर्शाती हैं।</p>
+    <p>भारत का साहित्य, जैसे वेद, महाकाव्य और शास्त्र, दुनिया के सबसे पुराने और समृद्ध ग्रंथों में गिने जाते हैं।</p>
+    <p>यहाँ के पारंपरिक नृत्य जैसे भरतनाट्यम, कथक और कुचिपुड़ी, भारतीय संस्कृति की गहराई को दिखाते हैं।</p>
+    <p>भारत के युवा तकनीकी क्षेत्र, स्टार्टअप्स और शिक्षा में नई ऊँचाइयों को छू रहे हैं।</p>
+
+    <!-- Flip Card -->
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="C:\Users\crick\OneDrive\Desktop\de2d6e13f40d66d30a09aef8d1eba335.jpg" alt="Image Front">
+            </div>
+            <div class="flip-card-back">
+                <img src="C:\Users\crick\OneDrive\Desktop\WhatsApp Image 2025-01-14 at 18.29.53_35a45537.jpg" alt="Image Back">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

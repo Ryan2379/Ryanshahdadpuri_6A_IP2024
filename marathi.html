@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>पाणी प्रदूषण आणि त्याचे परिणाम</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #a8e6cf, #dcedc1, aqua);
+            color: #34495e;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .flip-card {
+            background-color: transparent;
+            width: 400px;
+            height: 400px;
+            perspective: 1000px;
+            margin: 20px auto;
+        }
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 5px;
+        }
+        .flip-card-front {
+            background-color: #fff;
+        }
+        .flip-card-front img {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+        .flip-card-back {
+            background-color: #f1f1f1;
+            color: #34495e;
+            transform: rotateY(180deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        .image-side-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .image-side-section img {
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>पाणी प्रदूषण आणि त्याचे परिणाम</h1>
+    </header>
+
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="C:\Users\crick\OneDrive\Desktop\images.jpeg" alt="Water Pollution">
+                </div>
+                <div class="flip-card-back">
+                    <p>पाणी प्रदूषण म्हणजे पाण्याच्या स्रोतांमध्ये हानिकारक पदार्थ मिसळणे, ज्यामुळे पाण्याची गुणवत्ता खराब होते.</p>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <h2>पाणी प्रदूषणाचे दुष्परिणाम</h2>
+            <div class="image-side-section">
+                <ul>
+                    <li>पिण्याचे पाणी दूषित होते.</li>
+                    <li>पाण्यातील प्राणी मरू शकतात.</li>
+                    <li>लोक आजारी पडू शकतात.</li>
+                    <li>शेतीवर वाईट परिणाम होतो.</li>
+                    <li>पाणी विषारी होऊ शकते.</li>
+                    <li>पाण्याचा वास आणि चव खराब होते.</li>
+                    <li>नैसर्गिक वातावरण बिघडते.</li>
+                    <li>पैशांचे नुकसान होते.</li>
+                    <li>नद्या आणि तलावांचे सौंदर्य नष्ट होते.</li>
+                    <li>जगणे कठीण होते.</li>
+                </ul>
+                <img src="C:\Users\crick\OneDrive\Desktop\contaminated-water-concept-dirty-water-flows-from-the-pipe-into-the-river-sea-water-pollution-environment-contamination-ai-generative-photo.jpg" alt="Water Pollution">
+            </div>
+        </section>
+
+        <section>
+            <h2>पाणी प्रदूषण का होते?</h2>
+            <p>पाणी प्रदूषण होण्याची अनेक कारणे आहेत. काही मुख्य कारणे खाली दिली आहेत:</p>
+            <ul>
+                <li>कारखान्यांमधून रसायने आणि कचरा थेट पाण्यात टाकणे.</li>
+                <li>घरगुती सांडपाणी व न वापरण्याजोगा कचरा नद्यांमध्ये सोडणे.</li>
+                <li>शेतीमध्ये रासायनिक खतांचा आणि कीटकनाशकांचा अति वापर.</li>
+                <li>प्लास्टिक आणि इतर न विघटनशील वस्तूंचा पाण्यातील कचऱ्यात समावेश.</li>
+                <li>तेल गळती आणि जहाजांमधून होणारे प्रदूषण.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+</html>
